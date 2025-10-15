@@ -73,11 +73,11 @@ import sys
 # for i in fib:
 #     print(i)
 
-mygenerator2 = (i for i in range(1000) if i % 2 == 0)
+mygenerator2 = (i for i in range(100) if i % 2 == 0)
 # for i in mygenerator2:
 #     print(i)
 
-mylist2 = [i for i in range(1000) if i % 2 == 0]
+mylist2 = [i for i in range(100) if i % 2 == 0]
 print(mylist2)
 
 print(list(mygenerator2))
